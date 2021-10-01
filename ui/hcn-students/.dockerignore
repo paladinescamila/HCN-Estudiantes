@@ -1,0 +1,11 @@
+node_modules
+_mocks_
+build
+.dockerignore
+./src/app/test
+__mocks__
+babel.config.js
+setupTests.js
+*.spec.js
+Dockerfile
+Dockerfile.prod

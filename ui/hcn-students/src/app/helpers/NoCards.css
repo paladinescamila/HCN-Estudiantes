@@ -1,0 +1,10 @@
+.baseCard {
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px -10px rgb(179, 178, 178);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  padding: 50px;
+}

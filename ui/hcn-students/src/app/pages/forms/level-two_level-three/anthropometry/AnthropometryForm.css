@@ -1,0 +1,146 @@
+#todays-table {
+  margin: 20px;
+  margin-top: 25px;
+}
+
+#colorTaInput {
+  color: rgb(0, 0, 0);
+  background-color: rgb(36, 164, 109);
+  border-top: 2px solid black;
+}
+
+/* Taken from: https://codepen.io/machal/pen/jpdFm */
+table {
+  border-collapse: collapse;
+  overflow: hidden;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 1em;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+}
+
+.solidTrianguleIcon {
+  color: #24a46d;
+  background: transparent;
+  vertical-align: middle;
+  text-align: right;
+  size: small;
+  font-size: 21px;
+  cursor: help;
+}
+
+.test {
+  text-align: right !important;
+  margin: 0;
+}
+
+/* Taken from: https://stackoverflow.com/questions/40134586/how-to-set-different-column-in-table-to-be-different-width-in-css */
+
+/* nth-child(1) = the first td in each tr */
+.table-4 td:nth-child(1) {
+  width: 20%;
+}
+
+/* the second */
+.table-4 td:nth-child(2) {
+  width: 20%;
+}
+
+/* the third */
+.table-4 td:nth-child(3) {
+  width: 20%;
+}
+
+/* the fourth */
+.table-4 td:nth-child(4) {
+  width: 35%;
+}
+
+/*TABLE 5*/
+.table-5 td:nth-child(1) {
+  width: 20%;
+}
+
+.table-5 td:nth-child(2) {
+  width: 20%;
+}
+
+.table-5 td:nth-child(3) {
+  width: 10%;
+}
+
+.table-5 td:nth-child(4) {
+  width: 20%;
+}
+
+.table-5 td:nth-child(5) {
+  width: 35%;
+}
+
+/* Taken from: https://jsfiddle.net/azizn/dp0yLa3d/ */
+table td input {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.tdDisabled {
+  background-color: rgb(199, 199, 199);
+  cursor: not-allowed;
+}
+
+#tool-tip-info > .tooltip-inner {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(36, 164, 109);
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+#tool-tip-info > .arrow::before {
+  border-right-color: rgb(36, 164, 109);
+}
+
+#buttonTooltips {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  margin: 0%;
+  padding: 0%;
+}
+
+#buttonTooltips:active,
+#buttonTooltips:hover,
+#buttonTooltips:focus {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  text-decoration: underline;
+  cursor: help;
+}
+
+.tableFocus:focus,
+.tableFocus:active {
+  border-color: rgb(36, 164, 109) !important;
+  box-shadow: none;
+}
+
+.feedback-system {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+}

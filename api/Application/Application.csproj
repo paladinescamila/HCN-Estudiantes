@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ActivitiesService.cs~RF2fd44b1.TMP" />
+    <None Remove="IActivitiesService.cs~RF2e9700.TMP" />
+    <None Remove="IActivitiesService.cs~RF2f9630a.TMP" />
+    <None Remove="IActivitiesService.cs~RF6f5799.TMP" />
+    <None Remove="IActivitiesService.cs~RF72afae.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

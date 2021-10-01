@@ -1,0 +1,33 @@
+.gridGeneral {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 50px;
+  border: 1px solid #24a46d;
+  padding-bottom: 5%;
+}
+
+#headerInfo {
+  height: 3em;
+  width: 100vw;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #24a46d;
+}
+
+.titleInfo {
+  font-weight: lighter;
+  padding: 10px 0px 0px 40px;
+  font-size: 18px;
+}
+
+#textInfo {
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 70px;
+  margin-top: 15px;
+}
+
+.wrapper {
+  text-align: center;
+}

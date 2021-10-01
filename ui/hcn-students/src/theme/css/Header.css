@@ -1,0 +1,43 @@
+.navbar--logo-app {
+  width: 3rem;
+}
+
+#name-app {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#basic-nav-dropdown {
+  color: rgb(255, 255, 255);
+  background-color: rgb(91, 113, 103);
+  font-weight: bold;
+}
+
+#nav-item,
+.dropdown-menu {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#nav-item {
+  width: 100%;
+  height: 100%;
+}
+
+#nav-item:focus,
+.dropdown-menu:focus,
+#nav-item:active,
+.dropdown-menu:active,
+#nav-item:hover,
+.dropdown-menu:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 116, 66) !important;
+}
+
+.breakLine-top {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 1px;
+  margin: 0;
+}

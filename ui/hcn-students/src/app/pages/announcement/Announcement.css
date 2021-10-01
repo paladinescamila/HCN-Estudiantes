@@ -1,0 +1,20 @@
+/*The .box and the .grid classNames were took from the following link: https://github.com/arslanah99/dynamic-cards-reactbootstrap/blob/master/src/component/Box.css */
+.box {
+  margin: 20px;
+  border-radius: 10px;
+  min-height: 180;
+  width: 100%;
+  box-shadow: 10px 10px 10px -10px rgb(179, 178, 178);
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.grid2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 20px;
+}

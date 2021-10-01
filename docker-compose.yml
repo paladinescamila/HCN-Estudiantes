@@ -1,0 +1,32 @@
+# docker-compose.yml
+version: "3.5"
+
+services:
+  api:
+      image: docker.pkg.github.com/veronicatofino/degree-project/api:test
+      container_name: api_test
+      restart: always
+      ports:
+        - 5000:80
+
+  ui:
+    image: docker.pkg.github.com/veronicatofino/degree-project/ui:test
+    container_name: ui_test
+    restart: always
+    ports:
+      - 3000:80
+
+  mongodb:
+      image: mongo:latest
+      container_name: mongodb
+      restart: always
+      environment:
+        MONGO_INITDB_ROOT_USERNAME: root
+        MONGO_INITDB_ROOT_PASSWORD: root
+      ports:
+        - 27027:27017
+      volumes:
+        - mongodb_data:/data/db
+volumes:
+  mongodb_data:
+    name: mongodb_data

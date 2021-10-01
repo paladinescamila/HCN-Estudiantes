@@ -1,0 +1,50 @@
+.btn-box {
+  padding-top: 25px;
+  padding-left: 0px;
+}
+
+.btn-box:focus,
+.btn-box:hover {
+  cursor: pointer;
+}
+
+.form-input-chem {
+  color: black;
+}
+
+.invalid-feedback {
+  display: flex;
+}
+
+.form-input-chem:focus {
+  outline: none !important;
+  border-color: rgb(36, 164, 109) !important;
+  box-shadow: 0 0 5px rgb(36, 164, 109) !important;
+  color: black;
+}
+
+.form-biochem {
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.form-biochem-none {
+  width: 92%;
+  margin-left: 15px;
+  margin-top: 5px !important;
+  display: flexbox;
+}
+
+.deleteIcon {
+  margin-right: 5px;
+}
+
+.btn-box-table {
+  width: 30px;
+  padding: 0px;
+  display: inline-flex;
+  padding-top: 7px;
+  margin: 0px;
+  padding-left: 0px;
+}

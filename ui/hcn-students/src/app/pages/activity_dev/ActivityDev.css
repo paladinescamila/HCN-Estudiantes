@@ -1,0 +1,215 @@
+.buttonCss {
+  background-color: rgb(36, 164, 109);
+  margin-bottom: 25px;
+  width: 90%;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: small;
+  height: 40px;
+  margin-left: 15px;
+}
+.button-header-cc:hover,
+.button-header-cc:active,
+.button-header-cc:focus {
+  color: rgb(0, 0, 0) !important;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.card-group {
+  padding: 15px;
+}
+
+.sectionsCards {
+  border-radius: 10px;
+  padding-top: 15px;
+  background-color: rgba(255, 255, 255);
+  margin: 15px;
+  color: rgb(36, 164, 109);
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  box-shadow: 10px 10px 10px -10px rgb(179, 178, 178);
+  border: none;
+  width: 230px;
+  position: sticky;
+}
+
+.sectionsCards:hover,
+.sectionsCards:active,
+.sectionsCards:focus {
+  border-radius: 10px;
+  padding-top: 15px;
+  background-color: rgb(161, 185, 157) !important;
+  margin: 15px;
+  color: rgb(0, 0, 0) !important;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  box-shadow: 10px 10px 10px -10px rgb(179, 178, 178) !important;
+  border: none;
+}
+
+.sectionsCardsDisabled {
+  pointer-events: none;
+  border-radius: 10px;
+  padding-top: 15px;
+  background-color: rgba(153, 152, 152, 0.3);
+  margin: 15px;
+  color: rgb(116, 116, 116);
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  border: none;
+  width: 230px;
+  position: sticky;
+}
+
+.buttonCssDisabled {
+  pointer-events: none;
+  background: rgb(36, 164, 109, 0.3);
+  color: rgb(145, 145, 145);
+  font-size: small;
+  width: 90%;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 5px;
+  align-self: flex-end;
+  margin-bottom: 25px;
+  margin-left: 15px;
+}
+
+.buttonCss:hover {
+  background-color: rgb(0, 116, 66) !important;
+  color: white;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.buttonCss:active,
+.buttonCss:focus {
+  background-color: rgb(0, 116, 66) !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  color: white;
+}
+
+.cardGroup {
+  margin: 1%;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+#cardCss {
+  background-color: rgba(36, 164, 109, 0.63);
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.cardGroup a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.image-card {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.buttonGroup {
+  margin-top: 25px;
+  width: 20%;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  border-radius: 0px 0px 0px 10px;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+.widget-dev {
+  padding: 15px 30px;
+  background-color: #ececec;
+  width: 100%;
+  position: relative;
+}
+
+#header-row {
+  margin-top: 1px;
+  height: 3em;
+  width: 100vw;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgba(36, 164, 109, 0.35);
+}
+
+#nameModule {
+  padding-left: 5%;
+  font-size: large;
+  padding-top: 10px;
+}
+
+.Form {
+  width: 80%;
+}
+
+#upleft {
+  width: 20%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  border-radius: 10px 0px 0px 0px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#upright {
+  width: 80%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  border-radius: 0px 10px 0px 0px;
+  padding-top: 10px;
+  padding-left: 2%;
+}
+
+.breakLineDev {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  margin: 0px;
+}
+
+.break {
+  clear: both;
+}
+
+.regularIcon {
+  font-size: 35px;
+  cursor: help;
+  color: #24a46d;
+  background-color: transparent;
+  vertical-align: middle;
+}
+
+.solidIcon {
+  font-size: 25px;
+  color: #24a46d;
+  vertical-align: text-bottom;
+  cursor: help;
+}
+
+.align-items-center {
+  vertical-align: middle;
+  text-align: center;
+}

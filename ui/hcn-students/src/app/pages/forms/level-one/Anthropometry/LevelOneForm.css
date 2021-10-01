@@ -1,0 +1,65 @@
+.grid {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.break {
+  clear: both;
+}
+
+.solidIcon {
+  font-size: 25px;
+  vertical-align: text-bottom;
+}
+
+.form-input {
+  margin-left: 40px;
+  height: auto;
+  width: 96%;
+}
+
+.form-input-select {
+  margin-left: 40px;
+  height: auto;
+  width: 96%;
+}
+
+.form-input-select:hover {
+  cursor: pointer;
+}
+
+.form-input-select:focus {
+  outline: none !important;
+  border-color: rgb(36, 164, 109) !important;
+  box-shadow: 0 0 5px rgb(36, 164, 109) !important;
+  color: black;
+}
+
+.form-input:focus {
+  outline: none !important;
+  border-color: rgb(36, 164, 109) !important;
+  box-shadow: 0 0 5px rgb(36, 164, 109) !important;
+  color: black;
+}
+
+.label-input {
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.FormOneItem {
+  width: 100%;
+  padding-right: 25px;
+  padding-left: 15px;
+}
+
+.form-lvl-title {
+  padding-bottom: 5px;
+  padding-left: 0;
+}
+
+.form-lvl-buttons {
+  padding-right: 25px;
+  padding-left: 15px;
+  width: 80%;
+}

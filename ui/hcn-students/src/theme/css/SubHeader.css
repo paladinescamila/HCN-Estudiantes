@@ -1,0 +1,32 @@
+#second-row {
+  margin: 0%;
+  margin-top: 1px;
+  background-color: rgb(91, 113, 103);
+  height: 3em;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 100%;
+  padding-bottom: 55px;
+}
+
+.navbar--logo-puj {
+  width: 8em;
+}
+.navbar {
+  background-color: rgb(90, 113, 103);
+}
+
+.button-header {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.button-header:focus,
+.button-header:active,
+.button-header:hover {
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: rgb(90, 113, 103) !important;
+  box-shadow: none !important;
+}

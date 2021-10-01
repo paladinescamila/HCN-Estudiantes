@@ -1,0 +1,129 @@
+.activity {
+  border-radius: 10px;
+  min-height: 180;
+  width: 100%;
+  padding-right: 16px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px -10px rgb(179, 178, 178);
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.status {
+  padding: 0px 2px;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.dateInfo {
+  font-size: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.headerInfo {
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.difficulty {
+  font-size: 14px;
+}
+
+.button {
+  background: rgb(36, 164, 109);
+  color: rgb(0, 0, 0);
+  border-color: transparent;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-self: flex-end;
+  margin-bottom: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.button:disabled,
+.button[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+  background: rgb(36, 164, 109, 0.3);
+  color: rgb(145, 145, 145);
+  border-color: transparent;
+}
+
+.buttonSecondary:disabled,
+.buttonSecondary[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: rgb(255, 255, 255, 0.1);
+  color: rgb(145, 145, 145);
+  border-color: rgb(36, 164, 109);
+}
+
+.button:hover,
+.button:active,
+button:focus {
+  background-color: rgb(0, 116, 66) !important;
+  border-color: transparent !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.button .MuiCircularProgress-root {
+  color: rgb(0, 116, 66);
+}
+
+.backgroundStyle {
+  background-color: #ececec;
+  width: 100%;
+  min-height: 100%;
+}
+
+.buttonSecondary {
+  background: rgb(255, 255, 255);
+  color: rgb(36, 164, 109);
+  border-color: rgb(36, 164, 109);
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-self: flex-end;
+  margin-bottom: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.buttonSecondary:hover,
+.buttonSecondary:active,
+.buttonSecondary:focus {
+  background-color: rgb(187, 216, 204) !important;
+  border-color: rgb(0, 116, 66) !important;
+  box-shadow: 0px 8px 15px rgba(54, 31, 31, 0.2);
+  color: rgb(0, 116, 66) !important;
+}
+
+.grid3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.btnDisabled {
+  pointer-events: none;
+  background: rgb(36, 164, 109, 0.3);
+  color: rgb(145, 145, 145);
+  border-color: transparent;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-self: flex-end;
+  margin-bottom: 15px;
+}
