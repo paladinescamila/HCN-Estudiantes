@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 import BasicFormOneItem from "./pages/forms/shared/BasicFormOneItem";
 import LevelOneBiochemistryForm from "./pages/forms/level-one/biochemistry/LevelOneBiochemistryForm";
 import CompletedActivity from "./pages/activity/completed-activities/CompletedActivity";
-import LevelOneAnthoForm from "./pages/forms/level-one/anthropometry/LevelOneAnthoForm";
+import LevelOneAnthoForm from "./pages/forms/level-one/Anthropometry/LevelOneAnthoForm";
 import Course from "./pages/course/Course";
 
 function BasePage() {
